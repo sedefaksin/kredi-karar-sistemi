@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="Kredi başvurularını kaynaklarıyla değerlendiren karar sistemi.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <title>Kredi Karar Sistemi</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main id="landing-page" class="landing-page">
+    <header class="landing-nav">
+      <a class="landing-brand" href="#top" aria-label="Kredi Karar Sistemi">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 5h11l5 5v17H8zM19 5v6h5M12 16h8M12 20h5M18 23l2 2 4-5"/></svg></span>
+        <span><strong>Kredi Karar</strong><small>SİSTEMİ</small></span>
+      </a>
+      <nav class="landing-links" aria-label="Sayfa bölümleri"><a href="#yaklasim">Yaklaşım</a><a href="#surec">Karar süreci</a></nav>
+      <button class="button button-outline landing-login" type="button" data-open-login>Uzman girişi <span aria-hidden="true">↗</span></button>
+    </header>
+    <section class="landing-hero" id="top">
+      <div class="hero-copy" data-reveal>
+        <div class="hero-kicker"><span class="kicker-line"></span> SHINING STARS · BİTİRME PROJESİ</div>
+        <h1>Kredi kararlarında<br><em>netlik,</em> her adımda.</h1>
+        <p class="hero-lede">Başvuruları tutarlı kurallarla değerlendirin. Her önerinin hangi veriye ve politika maddesine dayandığını tek bir çalışma alanında görün.</p>
+        <div class="hero-actions"><button class="button button-primary hero-cta" type="button" data-open-login>Çalışma alanına geç <span aria-hidden="true">→</span></button><a class="text-link" href="#yaklasim">Sistemi tanıyın <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-proof"><span class="proof-seal" aria-hidden="true">✓</span><span><b>Karar önerisi, uzman kontrolünde</b><small>Otomatik sonuç değil; gerekçeli ve izlenebilir destek.</small></span></div>
+      </div>
+      <div class="hero-visual" data-reveal aria-label="Karar süreci ekranı önizlemesi">
+        <div class="visual-topline"><span><i></i> KARAR ÇALIŞMA ALANI</span><span>ÖNİZLEME</span></div>
+        <div class="visual-card">
+          <div class="visual-card-head"><div><small>BAŞVURU DEĞERLENDİRME</small><b>Kanıtı görün, kararı anlayın.</b></div><span class="visual-state">İNCELEME</span></div>
+          <div class="visual-customer"><span class="visual-avatar">A</span><span><b>Başvuru profili</b><small>Kimlik bilgileri gizli önizleme</small></span><span class="visual-branch">İZMİR</span></div>
+          <div class="visual-score-row"><div class="score-ring"><div><b>—</b><small>/ 100</small></div></div><div class="score-copy"><span>RİSK DEĞERLENDİRMESİ</span><b>Skor, veri ve kurallar birlikte incelenir.</b><small>Örnek arayüz · müşteri verisi içermez</small></div></div>
+          <div class="visual-checks"><div><span class="check-dot neutral-dot">01</span><span><b>Veri doğrulaması</b><small>Başvuru bilgileri</small></span><span class="check-line"></span></div><div><span class="check-dot neutral-dot">02</span><span><b>Politika kontrolü</b><small>Kaynaklı kurallar</small></span><span class="check-line short"></span></div><div><span class="check-dot neutral-dot">03</span><span><b>Uzman incelemesi</b><small>Nihai karar insanda</small></span><span class="check-line shorter"></span></div></div>
+          <div class="visual-foot"><span>Karar gerekçesi ve kaynaklar kayıt altındadır.</span><span aria-hidden="true">↗</span></div>
+        </div>
+        <div class="visual-caption"><span class="caption-rule"></span> ŞEFFAF DEĞERLENDİRME AKIŞI</div>
+        <span class="visual-orbit orbit-one" aria-hidden="true"></span><span class="visual-orbit orbit-two" aria-hidden="true"></span>
+      </div>
+      <a class="scroll-cue" href="#yaklasim"><span></span> AŞAĞI KAYDIR</a>
+    </section>
+    <section class="landing-principles" id="yaklasim">
+      <div class="section-intro" data-reveal><span class="hero-kicker"><span class="kicker-line"></span> TASARIM İLKELERİ</span><h2>Karar verirken<br>güven, <em>görünür</em> olmalı.</h2><p>Finansal değerlendirmede iyi deneyim; daha fazla otomasyon değil, daha iyi gerekçe ve doğru insan kontrolüdür.</p></div>
+      <div class="principle-grid">
+        <article class="principle-card" data-reveal><span class="principle-index">01</span><span class="principle-icon">⌁</span><h3>Kural önce gelir</h3><p>Risk skoru ve politika kontrolleri açık kurallarla hesaplanır. LLM, kredi kararını vermez.</p><span class="principle-foot">DETERMİNİSTİK DEĞERLENDİRME</span></article>
+        <article class="principle-card" data-reveal><span class="principle-index">02</span><span class="principle-icon">⌕</span><h3>Kanıt izlenir</h3><p>Her öneri; müşteri verisi, kontrol sonucu ve dayandığı politika kaynağıyla birlikte sunulur.</p><span class="principle-foot">KAYNAKLI GEREKÇE</span></article>
+        <article class="principle-card" data-reveal><span class="principle-index">03</span><span class="principle-icon">↗</span><h3>Uzman son sözü söyler</h3><p>Sistem öneri üretir; onay veya ret yetkili uzmanın incelemesiyle kayda alınır.</p><span class="principle-foot">İNSAN DENETİMİ</span></article>
+      </div>
+    </section>
+    <section class="landing-process" id="surec">
+      <div class="process-heading" data-reveal><div><span class="hero-kicker"><span class="kicker-line"></span> NASIL ÇALIŞIR?</span><h2>Başvurudan karara,<br><em>her adım kayıtlı.</em></h2></div><button class="button button-primary" type="button" data-open-login>Uygulamayı aç <span aria-hidden="true">→</span></button></div>
+      <div class="process-steps"><article data-reveal><span>01</span><div><b>Başvuruyu seç</b><p>Müşteri profilini kayıtlı veriler arasından bul.</p></div></article><article data-reveal><span>02</span><div><b>Kontrolleri incele</b><p>Risk ve politika bulgularını dayanaklarıyla değerlendir.</p></div></article><article data-reveal><span>03</span><div><b>Kararı kaydet</b><p>Yetkili uzman kararını denetim günlüğüne ekle.</p></div></article></div>
+    </section>
+    <footer class="landing-footer"><a class="landing-brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 5h11l5 5v17H8zM19 5v6h5M12 16h8M12 20h5M18 23l2 2 4-5"/></svg></span><span><strong>Kredi Karar</strong><small>SİSTEMİ</small></span></a><p>Shining Stars bitirme projesi <span>·</span> Sentetik veriyle çalışan prototip</p><a href="#top">Başa dön ↑</a></footer>
+  </main>
+  <main id="login-gate" class="login-gate hidden">
+    <section class="login-panel" aria-labelledby="login-title">
+      <div class="login-brand"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 5h11l5 5v17H8zM19 5v6h5M12 16h8M12 20h5M18 23l2 2 4-5"/></svg></span><span><strong>Kredi Karar Sistemi</strong><small>GÜVENLİ ÇALIŞMA ALANI</small></span></div>
+      <button class="login-back" id="back-to-landing" type="button">← Tanıtım sayfasına dön</button><p class="eyebrow">KREDİ OPERASYONLARI</p><h1 id="login-title">Oturum açın</h1><p class="login-description">Yetkili hesabınızla devam edin.</p>
+      <div id="login-error" class="inline-alert danger hidden" role="alert"></div>
+      <form id="login-form" class="login-form">
+        <label class="field"><span>Kullanıcı adı</span><input id="login-username" name="username" autocomplete="username" maxlength="80" required></label>
+        <label class="field"><span>Parola</span><input id="login-password" name="password" type="password" autocomplete="current-password" maxlength="256" required></label>
+        <button class="button button-primary" type="submit">Güvenli oturum aç <span aria-hidden="true">→</span></button>
+      </form>
+    </section>
+  </main>
+  <div class="app-shell hidden" id="app-shell">
+    <aside class="sidebar" aria-label="Ana gezinme">
+      <a class="brand" href="#review" aria-label="Kredi Karar Sistemi ana sayfa">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 5h11l5 5v17H8zM19 5v6h5M12 16h8M12 20h5M18 23l2 2 4-5"/></svg></span>
+        <span class="brand-copy"><strong>Kredi Karar</strong><small>SİSTEMİ</small></span>
+      </a>
+      <div class="workspace-picker">
+        <button class="workspace-switch" id="workspace-toggle" type="button" aria-expanded="false" aria-controls="workspace-menu">
+          <span class="workspace-avatar">İ</span><span><b>İzmir operasyonları</b><small>Şehir ve şubeler</small></span><span class="chevron" aria-hidden="true">⌄</span>
+        </button>
+        <div class="workspace-menu hidden" id="workspace-menu">
+          <div class="workspace-menu-heading">ŞEHİRLER</div>
+          <button class="city-option" id="city-toggle" type="button" aria-expanded="true" aria-controls="city-branches">
+            <span class="city-option-copy"><b>İzmir</b><small id="city-branch-count">Şubeler yükleniyor</small></span><span class="chevron" aria-hidden="true">⌄</span>
+          </button>
+          <div class="city-branches" id="city-branches"><div class="branch-list-label">İZMİR ŞUBELERİ</div><ul id="workspace-branches"></ul></div>
+          <div class="workspace-menu-foot">Mevcut müşteri verisi İzmir bölgesini kapsıyor.</div>
+        </div>
+      </div>
+      <div class="nav-label">ÇALIŞMA ALANI</div>
+      <nav class="nav-list">
+        <button class="nav-item active" data-view="review" aria-label="Başvuru değerlendirme" title="Başvuru değerlendirme"><span class="nav-icon">◉</span><span>Başvuru değerlendirme</span><kbd>1</kbd></button>
+        <button class="nav-item" data-view="portfolio" aria-label="Portföy analizi" title="Portföy analizi"><span class="nav-icon">▥</span><span>Portföy analizi</span></button>
+        <button class="nav-item" data-view="audit" aria-label="Karar geçmişi" title="Karar geçmişi"><span class="nav-icon">◷</span><span>Karar geçmişi</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="side-status"><span class="status-pulse"></span><span><b>Kural motoru aktif</b><small id="side-mode">Demo çalışma modu</small></span></div>
+        <div class="user-card"><span class="user-avatar">KD</span><span><b>Kredi uzmanı</b><small>Yerel çalışma alanı</small></span><button id="help-button" class="icon-button" title="Yardım" aria-label="Yardım">?</button></div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>Kredi Karar Sistemi</span><span class="crumb-sep">/</span><span id="crumb-current">Başvuru değerlendirme</span></div>
+        <div class="topbar-actions"><span class="secure-label"><span>⌑</span> Güvenli oturum</span><span class="top-divider"></span><span class="today" id="today-label"></span><button class="button button-outline button-sm" id="logout-button" type="button">Çıkış yap</button><button class="avatar-button" aria-label="Kullanıcı hesabı" id="user-avatar">KD</button></div>
+      </header>
+
+      <div class="content-wrap">
+        <section class="view active" id="view-review" aria-labelledby="page-title">
+          <div class="page-heading">
+            <div><div class="eyebrow">KREDİ OPERASYONLARI <span>·</span> İZMİR</div><h1 id="page-title">Başvuru değerlendirme</h1><p>Her kararın dayanağı ve sonraki adımı tek yerde.</p></div>
+            <div class="mode-control"><span class="mode-label"><span class="status-pulse"></span><span id="mode-text">Örnek veri modu</span></span><label class="switch" title="Gemini açıklamasını kullan"><input type="checkbox" id="live-toggle"><span class="switch-track"></span><span class="sr-only">Gemini açıklamasını aç</span></label></div>
+          </div>
+
+          <div class="summary-strip">
+            <div class="summary-main"><div class="summary-icon blue">▤</div><div><span class="summary-label">MÜŞTERİ PORTFÖYÜ</span><strong id="customer-total">—</strong><small>değerlendirilebilir müşteri</small></div></div>
+            <div class="summary-divider"></div>
+            <div class="summary-main"><div class="summary-icon green">§</div><div><span class="summary-label">KURAL KİTAPLIĞI</span><strong>6 politika belgesi</strong><small>Kaynaklı ve izlenebilir kurallar</small></div></div>
+            <div class="summary-divider"></div>
+            <div class="summary-main"><div class="summary-icon violet">✓</div><div><span class="summary-label">KARAR GÜVENCESİ</span><strong>4 inceleme adımı</strong><small>Veri · risk · politika · rapor</small></div></div>
+          </div>
+
+          <div class="panel selection-panel">
+            <div class="panel-heading"><div><h2>Başvuru sahibi</h2><p>Müşteri adı veya kimliğiyle ara ve değerlendirmeyi başlat.</p></div><span class="step-count"><span>01</span> / 03</span></div>
+            <form id="review-form" class="review-form">
+              <label class="field customer-field"><span>Müşteri</span><span class="input-wrap"><span class="input-symbol">⌕</span><input id="customer-search" list="customer-options" placeholder="İsim ya da müşteri kimliği ara" autocomplete="off" required><datalist id="customer-options"></datalist></span><small id="selected-customer-hint">1000 müşteri arasından seçim yapın.</small></label>
+              <label class="field collateral-field"><span>Beyan edilen teminat tutarı</span><span class="input-wrap money-input"><input id="collateral-amount" type="number" min="0" step="10000" value="0" inputmode="numeric"><span>₺</span></span><small>Uzman doğrulaması olmadan teminat kabul edilmez.</small></label>
+              <button class="button button-primary evaluate-button" type="submit"><span>Değerlendir</span><span aria-hidden="true">↗</span></button>
+            </form>
+          </div>
+
+          <div class="loading-state hidden" id="review-loading"><span class="spinner"></span><span><b>Başvuru incelemesi sürüyor</b><small>Veriler, politika kuralları ve rapor kontrol ediliyor.</small></span></div>
+          <div id="review-error" class="inline-alert danger hidden" role="alert"></div>
+          <div id="fallback-alert" class="inline-alert warning hidden" role="status"></div>
+          <section id="review-result" class="hidden" aria-live="polite">
+            <div id="decision-banner" class="decision-banner"></div>
+            <div class="metric-grid" id="risk-metrics"></div>
+            <div class="detail-grid">
+              <article class="panel detail-panel"><div class="panel-heading compact"><div><h2>Başvuru profili</h2><p>Kayda alınmış müşteri verileri</p></div><span class="pill neutral" id="branch-pill"></span></div><div id="customer-facts" class="facts-grid"></div></article>
+              <article class="panel detail-panel"><div class="panel-heading compact"><div><h2>Politika kontrolleri</h2><p>Kararı etkileyen kurallar</p></div><span class="pill blue-pill">9 kontrol</span></div><div id="policy-checks" class="check-list"></div><div class="source-note"><span class="source-icon">↗</span><span><b>Politika dayanağı</b><small id="policy-source"></small></span></div></article>
+            </div>
+            <div class="detail-grid lower-grid">
+              <article class="panel detail-panel"><div class="panel-heading compact"><div><h2>İnceleme adımları</h2><p>Bu karar hangi kontrollerden geçti?</p></div></div><ol class="timeline"><li><span class="timeline-dot done">✓</span><span><b>Veri toplandı</b><small>Müşteri profili kayıt sisteminden alındı.</small></span></li><li><span class="timeline-dot done">✓</span><span><b>Risk hesaplandı</b><small>Skor kural setiyle hesaplandı.</small></span></li><li><span class="timeline-dot done">✓</span><span><b>Politika denetlendi</b><small>Onay, gelir ve teminat kuralları uygulandı.</small></span></li><li><span class="timeline-dot reviewed">✓</span><span><b>Rapor doğrulandı</b><small>Sonuç, dayanak verilerle karşılaştırıldı.</small></span></li></ol></article>
+              <article class="panel detail-panel rationale-panel"><div class="panel-heading compact"><div><h2>Karar gerekçesi</h2><p>Deterministik politika bulguları</p></div></div><p id="report-rationale" class="rationale"></p><div id="gemini-explanation-wrap" class="gemini-explanation hidden"><b>Gemini açıklaması · öneri alanı değildir</b><p id="gemini-explanation"></p></div><div id="audit-warning" class="inline-alert warning hidden"></div><details class="report-details"><summary>Tam raporu ve kaynak metni gör</summary><pre id="full-report"></pre><blockquote id="policy-text"></blockquote></details></article>
+            </div>
+            <section id="human-review" class="panel human-panel hidden"><div class="human-icon">✓</div><div class="human-copy"><h2>Nihai karar uzman tarafından verilir</h2><p>Sistem yalnızca öneri üretir. Uzman hesabınızla kararınızı kaydedin.</p><small id="reviewer-identity"></small></div><form id="decision-form" class="decision-form"><label class="field note-field"><span>İnceleme notu <small>· isteğe bağlı</small></span><input id="reviewer-note" maxlength="1000" placeholder="Karar gerekçenizi kısaca ekleyin"></label><div class="decision-actions"><button class="button button-outline" type="button" data-human-decision="REDDEDİLDİ (insan)">Başvuruyu reddet</button><button class="button button-primary" type="button" data-human-decision="ONAYLANDI (insan)">Başvuruyu onayla <span>→</span></button></div></form></section>
+            <div id="saved-banner" class="inline-alert success hidden" role="status">Karar denetim günlüğüne kaydedildi.</div>
+          </section>
+          <footer class="page-footer"><span>Kredi Karar Sistemi</span><span>Rakamlar net, dayanaklar açık.</span></footer>
+        </section>
+
+        <section class="view" id="view-portfolio" aria-labelledby="portfolio-title">
+          <div class="page-heading"><div><div class="eyebrow">PORTFÖY ANALİZİ <span>·</span> 1.000 KAYIT</div><h1 id="portfolio-title">Portföy görünümü</h1><p>Müşteri gruplarını filtrele, risk ve dağılımı birlikte incele.</p></div><span class="pill green-pill">Veri tabanı bağlı</span></div>
+          <div class="panel portfolio-prompt"><div class="prompt-icon">▤</div><div class="prompt-content"><h2>İncelemek istediğiniz müşteri grubunu tanımlayın</h2><p>Şube, temerrüt durumu ve gelir eşiklerine göre arayın.</p><form id="portfolio-form" class="portfolio-form"><span class="input-wrap"><span class="input-symbol">⌕</span><input id="portfolio-question" placeholder="Örn. Karşıyaka’daki temerrütlü müşterilerin ortalama riski nedir?" maxlength="500" required></span><button class="button button-primary" type="submit">Grubu getir <span>→</span></button></form><div class="suggestions"><button type="button" data-question="Karşıyaka’daki temerrütlü müşterilerin ortalama riski nedir?">Karşıyaka · temerrütlü <span>↗</span></button><button type="button" data-question="Alsancak’taki temerrütsüz müşteriler">Alsancak · temerrütsüz <span>↗</span></button><button type="button" data-question="Aylık geliri 50000 üstünde olan müşteriler">Gelir 50.000 ₺ üzeri <span>↗</span></button></div></div></div>
+          <div id="portfolio-loading" class="loading-state hidden"><span class="spinner"></span><span><b>Portföy taranıyor</b><small>Müşteriler filtreleniyor ve riskler hesaplanıyor.</small></span></div><div id="portfolio-error" class="inline-alert danger hidden" role="alert"></div>
+          <div id="portfolio-result" class="hidden"><div class="results-heading"><div><h2>Analiz sonucu</h2><p id="portfolio-interpretation"></p></div><span class="pill neutral" id="result-count-pill"></span></div><div class="metric-grid portfolio-metrics" id="portfolio-metrics"></div><article class="panel table-panel"><div class="table-header"><div><h2>Sonuçlar</h2><p id="result-description"></p></div><button class="button button-outline button-sm" id="export-portfolio">CSV dışa aktar <span>↓</span></button></div><div class="table-scroll"><table><thead><tr><th>MÜŞTERİ</th><th>ŞUBE</th><th>AYLIK GELİR</th><th>TEMERRÜT</th><th>RİSK SKORU</th></tr></thead><tbody id="portfolio-rows"></tbody></table></div></article></div>
+          <footer class="page-footer"><span>Kredi Karar Sistemi <span>·</span> Filtre ölçütleri sonuç üzerinde gösterilir.</span><span>Kaynak: örnek müşteri veritabanı</span></footer>
+        </section>
+
+        <section class="view" id="view-audit" aria-labelledby="audit-title">
+          <div class="page-heading"><div><div class="eyebrow">YÖNETİŞİM <span>·</span> İZLENEBİLİRLİK</div><h1 id="audit-title">Karar geçmişi</h1><p>Sistem önerileri ve bunlara bağlı nihai uzman kararları.</p></div><button class="button button-outline" id="export-audit">JSON indir <span>↓</span></button></div>
+          <div class="audit-integrity-bar"><span>Denetim kaydı bütünlüğü</span><span id="audit-integrity" class="pill neutral">Kontrol ediliyor</span></div>
+          <div class="metric-grid audit-summary" id="audit-summary"></div><article class="panel table-panel"><div class="table-header"><div><h2>Tüm değerlendirmeler</h2><p>Her başvuru, uzman kararı verilene kadar beklemede kalır</p></div><span class="pill neutral" id="audit-count-pill">0 kayıt</span></div><div id="audit-empty" class="empty-state"><span class="empty-icon">◷</span><b>Henüz değerlendirme yok</b><p>Başvuru değerlendirdiğinizde öneri ve nihai uzman kararı burada görünür.</p></div><div id="audit-table-wrap" class="table-scroll hidden"><table><thead><tr><th>ZAMAN</th><th>MÜŞTERİ</th><th>SİSTEM ÖNERİSİ</th><th>UZMAN KARARI</th><th>UZMAN</th><th>RİSK</th></tr></thead><tbody id="audit-rows"></tbody></table></div></article>
+          <footer class="page-footer"><span>Denetim günlüğü <span>·</span> Uzman kararları JSON kaydına eklenir.</span><span>Yerel çalışma alanı</span></footer>
+        </section>
+      </div>
+    </main>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+</body>
+</html>

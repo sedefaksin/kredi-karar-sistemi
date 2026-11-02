@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.test-data-*/
+.test-scratch-*/
+tests/.test-run-*/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.venv/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.hmac-key
+backups/
